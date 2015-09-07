@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>jQuery Assignment Two!</title>
+
+        <!-- Bootstrap core CSS -->
+        <link type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom styles for this template -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand brand_text" href="#">Rokebul Hassan</a>
+                </div>
+                <div class="collapse navbar-collapse pull-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#home">Login</a></li>
+                        <li><a href="#suone">Sing Up</a></li>
+                        <li><a href="#lfone">Gallary</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+        <div class="container" id="home">
+            <div class="row">
+                <form class="form-group mform col-xs-12 col-sm-4 nice">
+                    <p class="h1 text-center h_text">LongIn Form</p><br><br>
+                    <label for="email" class="pas_text">Email</label>
+                    <input type="email" name="email" class="form-control" placeholder="Please entry your email!">
+                    <label for="password" class="pas_text">Password</label>
+                    <input id="mpass" type="password" name="password" class="form-control" placeholder="Please entry your password!">
+                    <span class="malert"></span><br><br>
+                    <a href="#lfone"><button id="sin" type="button" class="btn btn-primary mleft btn-block b_text">Sign In</button></a><br>
+                    <a href="#suone"><button id="sup" type="button" class="btn btn-success btn-block b_text">Sign Up</button></a><br><br><br><br>
+                </form>
+            </div>
+        </div><hr>
+        <div class="container" id="lfone">
+            <div class="row">
+                <button id="one" type="button" class="btn btn-danger h3"><b>Web Design</b></button>
+                <button id="two" type="button" class="btn btn-success h3"><b>Web Development</b></button>
+                <button id="three" type="button" class="btn btn-primary h3"><b>PSD to HTML5</b></button>
+                <button id="four" type="button" class="btn btn-default h3"><b>All</b></button>
+            </div><br>
+            <div class="row">
+                <div class="thumbnail col-xs-12 col-sm-4 one four">
+                    <img src="images/1.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">Web Design!</p>
+                </div>
+                <div class="thumbnail col-xs-12 col-sm-4 one four">
+                    <img src="images/1.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">Web Design!</p>
+                </div>
+                <div class="thumbnail col-xs-12 col-sm-4 one four">
+                    <img src="images/1.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">Web Design!</p>
+                </div>
+                <div class="thumbnail col-xs-12 col-sm-4 two four">
+                    <img src="images/2.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">Web Development!</p>
+                </div>
+                <div class="thumbnail col-xs-12 col-sm-4 two four">
+                    <img src="images/2.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">Web Development!</p>
+                </div>
+                <div class="thumbnail col-xs-12 col-sm-4 two four">
+                    <img src="images/2.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">Web Development!</p>
+                </div>
+                <div class="thumbnail col-xs-12 col-sm-4 three four">
+                    <img src="images/3.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">PSD to HTML5!</p>
+                </div>
+                <div class="thumbnail col-xs-12 col-sm-4 three four">
+                    <img src="images/3.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">PSD to HTML5!</p>
+                </div>
+                <div class="thumbnail col-xs-12 col-sm-4 three four">
+                    <img src="images/3.jpg" class="img-responsive psize" alt="photo"><br>
+                    <p class="text-center h2">PSD to HTML5!</p>
+                </div>
+            </div>
+        </div><hr>
+        <div class="container" id="suone">
+            <div class="row">
+                <form class="form-group col-xs-12 col-sm-6 nice">
+                    <p class="h1 text-center h_text">SingUp Form</p><br><br>
+                    <label for="fullName" class="pas_text">Full Name</label>
+                    <input type="text" name="fullName" class="form-control" placeholder="Please entry your full name!">
+                    <label for="password" class="pas_text">Create Password</label>
+                    <input id="smpass" type="password" name="password" class="form-control" placeholder="Please entry your password!">
+                    <span class="smalert"></span><br><br>
+                    <label for="message" class="pas_text">Message</label>
+                    <textarea class="form-control"></textarea>
+                    <span><b>250 Letters remaining!</b></span><br><br>
+                    <button id="snd" type="button" class="btn btn-success btn-block b_text">Send</button><br><br>
+                </form>
+            </div>
+        </div>
+        <!-- /.container -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/rokebul.js"></script>
+    </body>
+</html>

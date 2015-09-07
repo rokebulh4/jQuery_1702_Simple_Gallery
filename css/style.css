@@ -1,0 +1,62 @@
+body {
+    padding-top: 50px;
+}
+
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+.brand_text{
+    font-family: cursive;
+    font-size: 30px;
+    color: white;
+}
+.nice{
+    border: 2px solid gray;
+}
+.h_text{
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: bold;
+}
+.mform{
+    margin-top: 100px;
+}
+.red{
+    color: red;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: small;
+}
+.yellow{
+
+    padding: 5px 10px;
+    color: yellow;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: small;
+
+}
+.green{
+    color: green;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: small;
+}
+.pas_text{
+    font-family: monospace;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.b_text{
+    font-family: monospace;
+    font-size: 20px;
+}
+.mleft{
+    margin-right: 50px;
+}
+.psize{
+    width: 380px;
+}
